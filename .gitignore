@@ -1,0 +1,48 @@
+# Dependencias, compilaciones y resultados de pruebas
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+*.log
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+
+# Material independiente de la aplicación
+/presentacion/
+/tutorial-movil/
+/tutorial-vue/
+/app-vue-js.pptx
+/spec
+/README.md
+/MOBILE-VERIFICATION.md
+/tests/
+/postman/
+/playwright.config.ts
+/vitest.config.ts
+/android/app/src/test/
+/android/app/src/androidTest/
+/ios/App/CapApp-SPM/README.md
+
+# Archivos locales del sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+~$*
+.~lock.*#
+
+# Archivos generados por las herramientas móviles
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+ios/App/Pods/
+ios/App/build/
