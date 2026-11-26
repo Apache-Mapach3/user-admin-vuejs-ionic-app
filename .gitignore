@@ -19,12 +19,8 @@ playwright-report/
 /tutorial-vue/
 /app-vue-js.pptx
 /spec
-/README.md
 /MOBILE-VERIFICATION.md
-/tests/
 /postman/
-/playwright.config.ts
-/vitest.config.ts
 /android/app/src/test/
 /android/app/src/androidTest/
 /ios/App/CapApp-SPM/README.md

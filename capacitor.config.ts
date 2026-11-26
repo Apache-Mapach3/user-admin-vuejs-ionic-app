@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 import { KeyboardResize } from '@capacitor/keyboard';
 const config: CapacitorConfig = {
-  appId: 'com.nexo.users', appName: 'Nexo', webDir: 'dist',
+  appId: 'com.nexo.users', appName: 'Países'', webDir: 'dist',
   plugins: {
     SystemBars: { insetsHandling: 'native', initialViewportFitValueHint: 'cover', style: 'LIGHT' },
     CapacitorHttp: { enabled: true },
